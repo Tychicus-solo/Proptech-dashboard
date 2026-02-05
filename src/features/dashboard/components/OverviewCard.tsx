@@ -39,7 +39,7 @@ export const OverviewCard = ({ title, icon, stats }: OverviewCardProps) => {
 
       <div className="flex items-center justify-between px-[16px] py-[20px]">
         {stats.map((stat, index) => (
-          <div key={stat.label} className="flex flex-col ">
+          <div key={index} className="flex flex-col ">
             <span className="text-[#525252] text-[14px] font-medium">
               {stat.label}
             </span>

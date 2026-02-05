@@ -7,7 +7,7 @@ interface BudgetingModalProps {
   onClose: () => void;
 }
 
-export const BudgetingModal = ({ isOpen, onClose }: BudgetingModalProps) => {
+export const BudgetingModal = ({ isOpen }: BudgetingModalProps) => {
   if (!isOpen) return null;
 
   return (
